@@ -7,3 +7,6 @@
 3. Open Terminal of the code editor
 4. Type "npm install" and Press "Enter"
 5. To run the app type "npm start" and press "Enter"
+
+
+### Live: https://capable-raindrop-9ed5b4.netlify.app/
