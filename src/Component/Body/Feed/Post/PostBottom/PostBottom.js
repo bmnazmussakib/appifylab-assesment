@@ -1,22 +1,22 @@
 import React from 'react';
 import './PostBottom.css';
-import love from '../../../../../image/love.svg';
-import like from '../../../../../image/like.svg';
+import loveReaction from '../../../../../image/love.svg';
+import likeReaction from '../../../../../image/like.svg';
 import { BiLike } from 'react-icons/bi';
 import { GoComment } from 'react-icons/go';
 import { RiShareForwardLine } from 'react-icons/ri';
 
-const PostBottom = () => {
+const PostBottom = ({like, comment}) => {
     return (
         <div className='post-bottom pt-3'>
             <div className="post-bottom-top">
                 <div className="post-bottom-top-left">
-                    <img className="reaction-image" src={like} alt="" />
-                    <img className="reaction-image" src={love} alt="" />
-                    <span className="reaction-count ms-2">6</span>
+                    <img className="reaction-image" src={likeReaction} alt="" />
+                    <img className="reaction-image" src={loveReaction} alt="" />
+                    <span className="reaction-count ms-2">{like}</span>
                 </div>
                 <div className="post-bottom-top-right">
-                    <p className='comment-count'>1 comment</p>
+                    <p className='comment-count'>{comment} comment</p>
                 </div>
             </div>
             <div className="post-bottom-center">
