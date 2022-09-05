@@ -1,0 +1,21 @@
+.leftbar-wrapper {
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.leftbar-list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.leftbar-list-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.leftbar-list-icon {
+    margin-right: 15px;
+}

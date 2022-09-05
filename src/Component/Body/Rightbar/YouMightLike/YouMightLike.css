@@ -1,0 +1,16 @@
+.you-might-like {
+    padding: 20px;
+    background-color: #FFF;
+    border-radius: 15px;
+}
+
+.ignore-btn {
+    border: 1px solid rgb(211, 211, 211) !important;
+    width: 120px;
+}
+
+.follow-btn {
+    border: 1px solid #db2025 !important;
+    background: #db2025 !important;
+    width: 120px;
+}

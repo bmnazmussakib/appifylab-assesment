@@ -1,0 +1,21 @@
+.header {
+    background-color: #34465D !important;
+}
+
+.navbar form input {
+    border-radius: 5rem;
+    max-width: 417px;
+    width: 417px;
+    padding-left: 3rem;
+}
+
+.navbar form {
+    position: relative;
+}
+
+.navbar form a {
+    position: absolute;
+    left: 1rem;
+    top: 5px;
+    color: #727272;
+}

@@ -1,0 +1,14 @@
+.post-bottom-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-bottom-center-menu {
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-bottom-center-menu-icon {
+    margin-right: 10px;
+}

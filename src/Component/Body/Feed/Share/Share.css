@@ -1,0 +1,36 @@
+.share {
+    padding: 20px 15px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.share-input {
+    width: 100%;
+    border-radius: 5em;
+    border: none;
+    background-color: #F0F0F0;
+    padding-left: 20px;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
+
+.share-input:focus {
+    outline: none !important;
+    border: 1px solid rgb(212, 212, 212);
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+    color: #6666668e;
+  }
+
+  .create-post-hr {
+    border-color: rgb(168, 168, 168);
+  }
+
+  .share-bottom {
+    padding: 0 20px;
+  }
+
+  .share-icon {
+    margin-right: 5px;
+  }

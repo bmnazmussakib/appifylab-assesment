@@ -1,0 +1,29 @@
+.post-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post-profile-img {
+    margin-right: 10px;
+}
+
+.post-top-right-menu-button {
+    color: rgb(102, 102, 102);
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.post-top-right-menu-icon {
+    margin-right: 10px;
+}
+
+.post-user-name {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.post-date {
+    font-size: 12px;
+    font-weight: 400;
+    color: rgb(143, 143, 143);
+}
