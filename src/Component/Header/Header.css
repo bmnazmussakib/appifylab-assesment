@@ -12,7 +12,7 @@
 }
 
 .nav-search {
-    flex: 6;
+    flex: 5;
 }
 
 .nav-search form input {
@@ -34,11 +34,11 @@
 }
 
 .nav-menu {
-    flex: 4;
+    flex: 5;
     list-style: none;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 0px;
+    margin-bottom: -7px;
 }
 
 .nav-menu-item {
@@ -59,4 +59,24 @@
 
 .nav-menu-item:hover {
     border-bottom: 2px solid #fff;
+}
+
+.profile-menu:hover {
+    border-bottom: 2px solid transparent;
+}
+
+.profile-menu {
+    display: flex;
+    align-items: center;
+}
+.profile-menu a {
+    text-decoration: none;
+}
+
+.profile-menu span {
+    font-size: 16px;
+}
+
+.profile-arrow {
+    font-size: 14px;
 }
