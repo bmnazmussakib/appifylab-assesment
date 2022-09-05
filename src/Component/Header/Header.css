@@ -1,21 +1,62 @@
 .header {
     background-color: #34465D !important;
+    padding-bottom: 0;
 }
 
-.navbar form input {
+.logo {
+    flex: 2;
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav-search {
+    flex: 6;
+}
+
+.nav-search form input {
     border-radius: 5rem;
     max-width: 417px;
     width: 417px;
     padding-left: 3rem;
 }
 
-.navbar form {
+.nav-search form {
     position: relative;
 }
 
-.navbar form a {
+.nav-search form a {
     position: absolute;
     left: 1rem;
     top: 5px;
     color: #727272;
+}
+
+.nav-menu {
+    flex: 4;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0px;
+}
+
+.nav-menu-item {
+
+    font-size: 25px;
+    border-bottom: 2px solid transparent;
+    transition: all 0.3s;
+    padding: 10px;
+}
+
+.nav-menu-item a {
+    color: #fff;
+}
+
+.nav-menu-item:hover a {
+    color: #fff;
+}
+
+.nav-menu-item:hover {
+    border-bottom: 2px solid #fff;
 }
